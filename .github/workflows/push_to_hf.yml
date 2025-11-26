@@ -16,4 +16,4 @@ jobs:
         huggingface_repo_id: jpruz/iris
         repo_type: space
         space_sdk: gradio
-        hf_token: $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
+        hf_token: ${{ secrets.HF_TOKEN }}
